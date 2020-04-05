@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Richard Macias`,
     author: `Richard Macias`,
-    description: `Richard Macias `,
-    siteUrl: `https://richardmacias.me/`,
+    description: `Richard Macias`,
+    siteUrl: `https://richardmacias.net/`,
     social: {
       twitter: `rjny86`,
     },

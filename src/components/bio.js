@@ -54,22 +54,14 @@ const Bio = () => {
         }}
       />
       <p>
-        Software Developer living in Austin TX, proudly working at{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.cloudflare.com"
-        >
+        NYC > Austin, TX > Lisbon Portugal. Developer at{" "}
+        <a target="_blank" rel="noopener noreferrer" href="https://www.cloudflare.com">
           Cloudflare
-        </a>
+        </a>{" "}
         .
         <br />
         Can't find what you're looking for? Check my {""}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://rjny.github.io"
-        >
+        <a target="_blank" rel="noopener noreferrer" href="https://rjny.github.io">
           old blog
         </a>
       </p>
