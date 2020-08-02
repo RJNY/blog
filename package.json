@@ -52,9 +52,13 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "echo \"deploying to staging. \nTo deploy to production, run: yarn deploy-production\" && gatsby build && wrangler publish  ",
+    "deploy-staging": "gatsby build && wrangler publish",
+    "deploy-production": "gatsby build && wrangler publish --env production"
   }
 }
